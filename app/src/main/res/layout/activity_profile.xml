@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="User Info"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageUserProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@color/colorGray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Photo"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtSelectPhoto"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/txtName"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_round"
+        android:hint="Enter your name"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/btnContinue"
+        android:background="@drawable/btn_round"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="70dp"
+        android:textSize="17dp"
+        android:textAllCaps="true"/>
+
+
+</LinearLayout>

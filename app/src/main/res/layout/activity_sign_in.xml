@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agro Tech"
+        android:textSize="32sp"
+        android:fontFamily="@font/leckerlioneregular"
+        android:textColor="@color/colorGray"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="80dp"/>
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmailSignIn"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="15sp"/>
+
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPasswordSignIn"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:id="@+id/btnSignIn"
+        android:background="@drawable/btn_round"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="70dp"
+        android:textSize="17dp"
+        android:textAllCaps="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:layout_marginRight="6dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/btnSignUpTab"
+            android:layout_marginRight="6dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
